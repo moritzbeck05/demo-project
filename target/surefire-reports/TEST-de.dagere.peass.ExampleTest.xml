@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="de.dagere.peass.ExampleTest" time="1.281" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project/target/test-classes:/home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project/target/classes:/home/moritz/.m2/repository/de/dagere/kopeme/kopeme-junit/0.16.1/kopeme-junit-0.16.1.jar:/home/moritz/.m2/repository/de/dagere/kopeme/kopeme-core/0.16.1/kopeme-core-0.16.1.jar:/home/moritz/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar:/home/moritz/.m2/repository/org/aspectj/aspectjrt/1.9.7/aspectjrt-1.9.7.jar:/home/moritz/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/moritz/.m2/repository/org/junit/vintage/junit-vintage-engine/5.8.2/junit-vintage-engine-5.8.2.jar:/home/moritz/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/moritz/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/moritz/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/moritz/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/moritz/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/moritz/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/moritz/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/moritz/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/home/moritz/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/home/moritz/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar:/home/moritz/.m2/repository/org/apache/maven/maven-model/3.8.4/maven-model-3.8.4.jar:/home/moritz/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/home/moritz/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/home/moritz/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.1/jackson-databind-2.13.1.jar:/home/moritz/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.1/jackson-annotations-2.13.1.jar:/home/moritz/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.1/jackson-core-2.13.1.jar:/home/moritz/.m2/repository/org/glassfish/jaxb/jaxb-xjc/2.3.5/jaxb-xjc-2.3.5.jar:/home/moritz/.m2/repository/org/glassfish/jaxb/xsom/2.3.5/xsom-2.3.5.jar:/home/moritz/.m2/repository/com/sun/xml/bind/external/relaxng-datatype/2.3.5/relaxng-datatype-2.3.5.jar:/home/moritz/.m2/repository/org/glassfish/jaxb/codemodel/2.3.5/codemodel-2.3.5.jar:/home/moritz/.m2/repository/com/sun/xml/bind/external/rngom/2.3.5/rngom-2.3.5.jar:/home/moritz/.m2/repository/com/sun/xml/dtd-parser/dtd-parser/1.4.5/dtd-parser-1.4.5.jar:/home/moritz/.m2/repository/com/sun/istack/istack-commons-tools/3.0.12/istack-commons-tools-3.0.12.jar:/home/moritz/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.5/jaxb-runtime-2.3.5.jar:/home/moritz/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/moritz/.m2/repository/org/glassfish/jaxb/txw2/2.3.5/txw2-2.3.5.jar:/home/moritz/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar:/home/moritz/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/moritz/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/home/moritz/.m2/repository/com/github/javaparser/javaparser-core/3.24.0/javaparser-core-3.24.0.jar:/home/moritz/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/moritz/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/moritz/.m2/repository/net/kieker-monitoring/kieker/1.15/kieker-1.15.jar:/home/moritz/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/moritz/.m2/repository/org/jctools/jctools-core/3.3.0/jctools-core-3.3.0.jar:/home/moritz/.m2/repository/net/kieker-monitoring/kieker/1.15/kieker-1.15-aspectj.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="maven.javadoc.skip" value="true"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="rat.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project/target/surefire/surefirebooter4614023295153144145.jar /home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project/target/surefire 2022-01-20T13-04-09_290-jvmRun1 surefire3894198825054361053tmp surefire_010754365340448836051tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="de.dagere.peass.ExampleTest"/>
+    <property name="surefire.test.class.path" value="/home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project/target/test-classes:/home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project/target/classes:/home/moritz/.m2/repository/de/dagere/kopeme/kopeme-junit/0.16.1/kopeme-junit-0.16.1.jar:/home/moritz/.m2/repository/de/dagere/kopeme/kopeme-core/0.16.1/kopeme-core-0.16.1.jar:/home/moritz/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar:/home/moritz/.m2/repository/org/aspectj/aspectjrt/1.9.7/aspectjrt-1.9.7.jar:/home/moritz/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/moritz/.m2/repository/org/junit/vintage/junit-vintage-engine/5.8.2/junit-vintage-engine-5.8.2.jar:/home/moritz/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/moritz/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/moritz/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/moritz/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/moritz/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/moritz/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/moritz/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/moritz/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/home/moritz/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/home/moritz/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar:/home/moritz/.m2/repository/org/apache/maven/maven-model/3.8.4/maven-model-3.8.4.jar:/home/moritz/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/home/moritz/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/home/moritz/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.1/jackson-databind-2.13.1.jar:/home/moritz/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.1/jackson-annotations-2.13.1.jar:/home/moritz/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.1/jackson-core-2.13.1.jar:/home/moritz/.m2/repository/org/glassfish/jaxb/jaxb-xjc/2.3.5/jaxb-xjc-2.3.5.jar:/home/moritz/.m2/repository/org/glassfish/jaxb/xsom/2.3.5/xsom-2.3.5.jar:/home/moritz/.m2/repository/com/sun/xml/bind/external/relaxng-datatype/2.3.5/relaxng-datatype-2.3.5.jar:/home/moritz/.m2/repository/org/glassfish/jaxb/codemodel/2.3.5/codemodel-2.3.5.jar:/home/moritz/.m2/repository/com/sun/xml/bind/external/rngom/2.3.5/rngom-2.3.5.jar:/home/moritz/.m2/repository/com/sun/xml/dtd-parser/dtd-parser/1.4.5/dtd-parser-1.4.5.jar:/home/moritz/.m2/repository/com/sun/istack/istack-commons-tools/3.0.12/istack-commons-tools-3.0.12.jar:/home/moritz/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.5/jaxb-runtime-2.3.5.jar:/home/moritz/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/moritz/.m2/repository/org/glassfish/jaxb/txw2/2.3.5/txw2-2.3.5.jar:/home/moritz/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar:/home/moritz/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/moritz/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/home/moritz/.m2/repository/com/github/javaparser/javaparser-core/3.24.0/javaparser-core-3.24.0.jar:/home/moritz/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/moritz/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/moritz/.m2/repository/net/kieker-monitoring/kieker/1.15/kieker-1.15.jar:/home/moritz/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/moritz/.m2/repository/org/jctools/jctools-core/3.3.0/jctools-core-3.3.0.jar:/home/moritz/.m2/repository/net/kieker-monitoring/kieker/1.15/kieker-1.15-aspectj.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/moritz"/>
+    <property name="user.language" value="de"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="jacoco.skip" value="true"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="checkstyle.skip" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project/target/surefire/surefirebooter4614023295153144145.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="kieker.monitoring.configuration" value="/home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project/src/main/resources/META-INF/kieker.monitoring.properties"/>
+    <property name="java.runtime.version" value="11.0.13+8-Ubuntu-0ubuntu1.21.10"/>
+    <property name="user.name" value="moritz"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.13.0-27-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/moritz/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project_peass/temp"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="/home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="animal.sniffer.skip" value="true"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.13+8-Ubuntu-0ubuntu1.21.10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="enforcer.skip" value="true"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="test" classname="de.dagere.peass.ExampleTest" time="1.263">
+    <system-out><![CDATA[13:04:10.432 [main] DEBUG kieker.monitoring.core.configuration.ConfigurationFactory:59 - Searching for JVM argument 'kieker.monitoring.configuration' ...
+13:04:10.435 [main] INFO  kieker.monitoring.core.configuration.ConfigurationFactory:67 - Loading configuration from JVM-specified location: '/home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project/src/main/resources/META-INF/kieker.monitoring.properties'
+13:04:10.440 [main] INFO  kieker.monitoring.core.controller.TCPController:79 - Could not parse port for the TCPController, deactivating this option. Received string was: 
+13:04:10.469 [main] DEBUG kieker.monitoring.core.controller.WriterController:258 - Initializing Writer Controller
+13:04:10.469 [main] INFO  kieker.monitoring.core.controller.StateController:128 - Enabling monitoring
+13:04:10.469 [Thread-1] DEBUG kieker.monitoring.writer.MonitoringWriterThread:58 - kieker.monitoring.writer.MonitoringWriterThread is running.
+13:04:10.477 [main] INFO  kieker.monitoring.core.controller.MonitoringController:172 - Current State of kieker.monitoring (1.15) Status: 'enabled'
+	Name: 'KIEKER-KoPeMe'; Hostname: 'moritz-ThinkPad-T480s'; experimentID: '1'
+JMXController: JMX disabled
+TimeSource: 'kieker.monitoring.timer.SystemNanoTimer'
+	Time in nanoseconds (with nanoseconds precision) since Thu Jan 01 01:00:00 CET 1970'
+ProbeController: disabled
+WriterController:
+	Queue type: class java.util.concurrent.LinkedBlockingQueue
+	Queue capacity: 10000000
+	Insert behavior (a.k.a. QueueFullBehavior): class kieker.monitoring.queue.behavior.BlockOnFailedInsertBehavior
+		numBlocked: 0
+Writer: 'de.dagere.kopeme.kieker.writer.ChangeableFolderWriter'
+	Configuration:
+		de.dagere.kopeme.kieker.writer.ChangeableFolderWriter.realwriter='FileWriter'
+		de.dagere.kopeme.kieker.writer.ChangeableFolderWriter.flush='false'
+
+	Automatic assignment of logging timestamps: 'true'
+Sampling Controller: Periodic Sensor available: Poolsize: '0'; Scheduled Tasks: '0'
+13:04:10.481 [main] DEBUG de.dagere.kopeme.junit.rule.TestRunnables:41 - Klasse: class de.dagere.peass.ExampleTest
+13:04:10.485 [main] DEBUG de.dagere.kopeme.parsing.BuildtoolProjectNameReader:52 - Directory: /home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project/.
+13:04:10.504 [main] INFO  kieker.monitoring.core.controller.StateController:128 - Enabling monitoring
+13:04:10.504 [main] DEBUG de.dagere.kopeme.kieker.KoPeMeKiekerSupport:50 - Kieker-Monitoring successfully enabled
+No GC Collector
+13:04:10.509 [main] DEBUG de.dagere.kopeme.TimeBoundExecution:100 - Waiting: 300000
+13:04:10.524 [timebound-0] DEBUG de.dagere.kopeme.junit.rule.KoPeMeBasicStatement:125 - Executing 6 execution 
+13:04:10.524 [timebound-0] DEBUG de.dagere.kopeme.junit.rule.KoPeMeBasicStatement:128 - --- Starting execution  1/6 ---
+13:04:10.642 [timebound-0] DEBUG de.dagere.kopeme.junit.rule.KoPeMeBasicStatement:137 - --- Stopping execution  1/6 ---
+13:04:10.642 [timebound-0] DEBUG de.dagere.kopeme.junit.rule.KoPeMeBasicStatement:128 - --- Starting execution  2/6 ---
+13:04:10.746 [timebound-0] DEBUG de.dagere.kopeme.junit.rule.KoPeMeBasicStatement:137 - --- Stopping execution  2/6 ---
+13:04:10.746 [timebound-0] DEBUG de.dagere.kopeme.junit.rule.KoPeMeBasicStatement:128 - --- Starting execution  3/6 ---
+13:04:10.851 [timebound-0] DEBUG de.dagere.kopeme.junit.rule.KoPeMeBasicStatement:137 - --- Stopping execution  3/6 ---
+13:04:10.851 [timebound-0] DEBUG de.dagere.kopeme.junit.rule.KoPeMeBasicStatement:128 - --- Starting execution  4/6 ---
+13:04:10.956 [timebound-0] DEBUG de.dagere.kopeme.junit.rule.KoPeMeBasicStatement:137 - --- Stopping execution  4/6 ---
+13:04:10.957 [timebound-0] DEBUG de.dagere.kopeme.junit.rule.KoPeMeBasicStatement:128 - --- Starting execution  5/6 ---
+13:04:11.061 [timebound-0] DEBUG de.dagere.kopeme.junit.rule.KoPeMeBasicStatement:137 - --- Stopping execution  5/6 ---
+13:04:11.062 [timebound-0] DEBUG de.dagere.kopeme.junit.rule.KoPeMeBasicStatement:128 - --- Starting execution  6/6 ---
+13:04:11.165 [timebound-0] DEBUG de.dagere.kopeme.junit.rule.KoPeMeBasicStatement:137 - --- Stopping execution  6/6 ---
+13:04:11.183 [timebound-0] DEBUG de.dagere.kopeme.junit.rule.KoPeMeBasicStatement:152 - Executions: 6
+13:04:11.216 [timebound-0] DEBUG de.dagere.kopeme.datacollection.tempfile.WrittenResultReader:48 - Count of executions: 6  Values: 6
+13:04:11.218 [timebound-0] INFO  de.dagere.kopeme.datastorage.XMLDataStorer:152 - Storing data to: /home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project_peass/measurementsTemp/de.dagere/demo-project/de.dagere.peass.ExampleTest/test.xml
+13:04:11.366 [timebound-0] INFO  de.dagere.kopeme.datastorage.XMLDataStorer:152 - Storing data to: /home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project_peass/measurementsTemp/de.dagere/demo-project/de.dagere.peass.ExampleTest/test.xml
+13:04:11.369 [main] DEBUG de.dagere.kopeme.TimeBoundExecution:107 - KoPeMe-Test METHOD. Kieker: true Threads: 0
+13:04:11.369 [main] DEBUG de.dagere.kopeme.kieker.KoPeMeKiekerSupport:80 - Disabling Monitoring..
+13:04:11.369 [main] INFO  de.dagere.kopeme.kieker.KoPeMeKiekerSupport:103 - Waiting for Kieker writer queue to finish
+13:04:11.369 [main] DEBUG de.dagere.kopeme.kieker.KoPeMeKiekerSupport:113 - Final queue size: 0
+13:04:11.369 [main] INFO  kieker.monitoring.core.controller.StateController:143 - Disabling monitoring
+13:04:11.371 [main] DEBUG kieker.monitoring.core.controller.WriterController:267 - Shutting down Writer Controller
+13:04:11.371 [main] DEBUG de.dagere.kopeme.kieker.KoPeMeKiekerSupport:141 - Waiting for Thread-End: Thread[Thread-1,5,main]
+13:04:11.371 [Thread-1] DEBUG kieker.monitoring.writer.MonitoringWriterThread:75 - kieker.monitoring.writer.MonitoringWriterThread has finished.
+13:04:11.371 [main] DEBUG de.dagere.kopeme.kieker.KoPeMeKiekerSupport:144 - Waiting for Thread-End: Thread[Thread-1,5,], Thread alive: false
+13:04:11.372 [main] DEBUG de.dagere.kopeme.kieker.KoPeMeKiekerSupport:146 - Writing finished, Thread alive: false
+13:04:11.372 [main] DEBUG kieker.monitoring.core.configuration.ConfigurationFactory:59 - Searching for JVM argument 'kieker.monitoring.configuration' ...
+13:04:11.373 [main] INFO  kieker.monitoring.core.configuration.ConfigurationFactory:67 - Loading configuration from JVM-specified location: '/home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project/src/main/resources/META-INF/kieker.monitoring.properties'
+13:04:11.375 [main] DEBUG kieker.monitoring.core.controller.WriterController:258 - Initializing Writer Controller
+13:04:11.375 [main] INFO  de.dagere.kopeme.junit.rule.KoPeMeStandardRuleStatement:69 - Test de.dagere.peass.ExampleTest beendet
+13:04:11.375 [Thread-3] DEBUG kieker.monitoring.writer.MonitoringWriterThread:58 - kieker.monitoring.writer.MonitoringWriterThread is running.
+]]></system-out>
+    <system-err><![CDATA[Jan. 20, 2022 1:04:10 NACHM. de.dagere.kopeme.kieker.writer.ChangeableFolderWriter <init>
+INFORMATION: Init..
+Jan. 20, 2022 1:04:10 NACHM. de.dagere.kopeme.kieker.writer.ChangeableFolderWriter <init>
+INFORMATION: Writer: class kieker.monitoring.writer.filesystem.FileWriter
+Jan. 20, 2022 1:04:10 NACHM. de.dagere.kopeme.kieker.writer.ChangeableFolderWriter onStarting
+INFORMATION: Initializing class de.dagere.kopeme.kieker.writer.ChangeableFolderWriter
+Jan. 20, 2022 1:04:10 NACHM. de.dagere.kopeme.kieker.writer.ChangeableFolderWriter setFolder
+INFORMATION: Terminating old writer
+Jan. 20, 2022 1:04:10 NACHM. de.dagere.kopeme.kieker.writer.ChangeableFolderWriter setFolder
+INFORMATION: writer: class kieker.monitoring.writer.filesystem.FileWriter
+Jan. 20, 2022 1:04:10 NACHM. de.dagere.kopeme.kieker.writer.ChangeableFolderWriter setFolder
+INFORMATION: Writing to: /home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project_peass/measurementsTemp/de.dagere/demo-project/de.dagere.peass.ExampleTest/1642680250484/test 1936550492
+Jan. 20, 2022 1:04:10 NACHM. de.dagere.kopeme.kieker.writer.ChangeableFolderWriter setFolder
+INFORMATION: New writer 594651850 created; old writer 1936550492
+Jan. 20, 2022 1:04:10 NACHM. de.dagere.kopeme.kieker.writer.ChangeableFolderWriter addRecordsToNewWriter
+INFORMATION: Adding registry record: KiekerMetadataRecord: version = 1.15, controllerName = KIEKER-KoPeMe, hostname = moritz-ThinkPad-T480s, experimentId = 1, debugMode = false, timeOffset = 0, timeUnit = NANOSECONDS, numberOfRecords = 0, 
+Jan. 20, 2022 1:04:10 NACHM. de.dagere.kopeme.kieker.writer.ChangeableFolderWriter setFolder
+INFORMATION: Change writing to: 594651850
+Jan. 20, 2022 1:04:11 NACHM. de.dagere.kopeme.datacollection.tempfile.ResultTempWriter finalizeCollection
+INFORMATION: Flushing to /home/moritz/Schreibtisch/peass-demo/pure-demo/demo-project_peass/temp/kopeme-2214023340354103270.tmp finished
+Jan. 20, 2022 1:04:11 NACHM. de.dagere.kopeme.kieker.writer.ChangeableFolderWriter onTerminating
+INFORMATION: Terminating writing
+Jan. 20, 2022 1:04:11 NACHM. de.dagere.kopeme.kieker.writer.ChangeableFolderWriter <init>
+INFORMATION: Init..
+Jan. 20, 2022 1:04:11 NACHM. de.dagere.kopeme.kieker.writer.ChangeableFolderWriter <init>
+INFORMATION: Writer: class kieker.monitoring.writer.filesystem.FileWriter
+Jan. 20, 2022 1:04:11 NACHM. de.dagere.kopeme.kieker.writer.ChangeableFolderWriter onStarting
+INFORMATION: Initializing class de.dagere.kopeme.kieker.writer.ChangeableFolderWriter
+]]></system-err>
+  </testcase>
+</testsuite>
